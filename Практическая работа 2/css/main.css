@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+}
+
+.header_picture {
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(135deg,rgb(44,91,111) 50%, rgb(8,16,19) 60%,rgba(8,16,19,1)); */
+    background-color: rgb(44, 91, 111);
+}
+
+
+#header_img {
+
+    display: block;
+    margin-left: auto;
+
+}
+
+
+.header_top_window {
+
+    position: absolute;
+    color: blue;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    top: 50px;
+    margin: 0px 5%;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header_top_window p {
+
+    color: white;
+    padding-left: 5px;
+}
+
+#kev {
+
+    color: white;
+    text-align: center;
+}
+
+#OdinAss {
+
+    color: yellow;
+    text-align: center;
+}
+
+
+#tasks_text {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15%;
+}
+
+#tasks_img {
+
+    /* border: 3px solid black;  */
+    width: 50%;
+    height: auto;
+    display: inline-block
+}
+
+#tasks_img img {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.pict_before::before {
+    content: "";
+    display: inline-block;
+    /* background: url(img/icons/dev.png) no-repeat; */
+    /* background-image: url(../img/icons/dev.png); */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+#dev::before {
+
+    background-image: url(../img/icons/dev.png);
+
+}
+
+#study::before {
+
+    background-image: url(../img/icons/study.png);
+
+}
+
+#exch::before {
+
+    background-image: url(../img/icons/exch.png);
+
+}
+
+#trade::before {
+
+    background-image: url(../img/icons/trade.png);
+
+}
+
+#bproc::before {
+
+    background-image: url(../img/icons/bproc.png);
+
+}
+
+.left_block {
+    padding-top: 30px;
+    background-color: #dddfde;
+    height: 300px;
+}
+
+.left_text {
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+    padding-right: 15%;
+    width: 30%;
+    padding-left: 17%;
+}
+
+.left_img {
+
+    /* border: 3px solid black;  */
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+
+}
+
+.left_img img {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(94, 94, 94);
+    text-decoration: none;
+    position: relative;
+    border-radius: 35px;
+}
+
+
+.right_block {
+    padding-top: 30px;
+    /* background-color: #dddfde; */
+    height: 300px;
+}
+
+.right_img {
+
+    /* border: 3px solid black;  */
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+
+}
+
+.right_text {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: right;
+}
+
+
+
+.right_img img {
+
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: rgb(94, 94, 94);
+}
+
+.letter{
+	width: 50%;
+	/* max-width: 350px; */
+    padding-left: 25%;
+    padding-top: 30px;
+    
+}
+/* .form-letter{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box; 
+
+}*/
+.form-letter div{
+	padding: 15px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-letter label,.form-letter input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-letter label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-letter input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.form-letter label span{
+	color: red;
+}
+.form-letter .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: rgb(44, 91, 111);
+	cursor: pointer;
+	border: 3px rgb(44, 91, 111) solid;
+	border-radius: 5px;
+}
+.form-letter .bot-send-mail:hover{
+	color: rgb(44, 91, 111);
+	background-color: #fff;
+}
