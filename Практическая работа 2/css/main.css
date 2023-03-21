@@ -261,3 +261,13 @@ footer{
     color: black;
 
 }
+.copyright{
+    color: white;
+    margin-top: 7%;
+    padding: 0%;
+ }
+
+.copyright p{
+    margin-bottom: 0px;
+    margin-left: 30%;
+}
