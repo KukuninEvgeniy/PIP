@@ -33,28 +33,29 @@
       </div>
       <div id="tasks_text">
         <p>РЕШАЮ ЗАДАЧИ</p>
-        <p class="pict_before" id="dev">Разработка и доработка программ</p>
-        <p class="pict_before" id="study">Внедрение и обучение сотрудников</p>
-        <p class="pict_before" id="exch">Сверстка и обмен данных</p>
-        <p class="pict_before" id="trade">Интеграция торг. оборудования и 1С</p>
+        <p class="pict_before" id="dev">  <a href="#Dev_block" class="top_nav">Разработка и доработка программ</a></p>
+        <p class="pict_before" id="study"><a href="#Study_block" class="top_nav">Внедрение и обучение сотрудников</a></p>
+        <p class="pict_before" id="exch"> <a href="#Exch_block" class="top_nav">Сверстка и обмен данных</a></p>
+        <p class="pict_before" id="trade"><a href="#Trade_block" class="top_nav">Интеграция торг. оборудования и 1С</a></p>
         <p class="pict_before" id="bproc">Автоматизация бизнес процессов</p>
+        <!-- <p class="pict_before" id="dev">  <a href="#Dev_block" class="top_nav"> Разработка и доработка программ</a></p> -->
       </div>
     </div>
 
-    <div class="left_block">
+    <div class="left_block" id="Dev_block">
       <div class="left_text">
-        <h1>Разработка</h1>
+        <h1> Разработка</h1>
         <p>Создание и настройка документов, справочников, отчетов, бизнес-процессов, печатных
           форм, обработок, формирования движений/проводок. Выявление и исправление
           ошибок в программх и ведении учета, добавление в программы новых функций</p>
-        <a href="##" class="btn">Заказать расчет</a>
+        <a href="#send" class="btn">Заказать расчет</a>
       </div>
       <div class="left_img">
         <img src="img/Dev_block.png" alt="task" height="300px">
       </div>
     </div>
 
-    <div class="right_block">
+    <div class="right_block" id="Study_block">
       <div class="right_img">
         <img src="img/Study_block.png" alt="task" height="300px">
       </div>
@@ -64,24 +65,24 @@
           данных из старых программ, запуск новой программы, обучение сотрудников.</p>
         <p>Уже используете программу 1С, но регуляроно возникают вопросы - Связываетесь
           мной - Я оцениваю объем работы - Заключаем договор на сопровождение</p>
-        <a href="##" class="btn">Заказать расчет</a>
+        <a href="#send" class="btn">Заказать расчет</a>
       </div>
     </div>
 
-    <div class="left_block">
+    <div class="left_block" id="Exch_block">
      <div class="left_text">
         <h1>Сверстка и обмен</h1>
         <p>Настройка как разовых, так и регулярных обменов между различными базами данных
           1С (а также обменов 1С с сайтами). Благодаря богатому опыту могу разобраться с
           нюансами любого переноса и помочь автоматизировать обмен "под ключ"</p>
-        <a href="##" class="btn">Заказать расчет</a>
+        <a href="#send" class="btn">Заказать расчет</a>
       </div>
       <div class="left_img">
         <img src="img/Exch_block.png" alt="task" height="300px">
       </div>
     </div>
 
-    <div class="right_block">
+    <div class="right_block" id="Trade_block">
       <div class="right_img">
         <img src="img/trade_block.png" alt="task" height="300px">
       </div>
@@ -90,7 +91,7 @@
         <p>Интеграция любого оборудования, совместимого с 1С: фискальные регистраторы,
            сканеры штрих-кодов, магнитных и бесконтактных карт, терминалы сбора данных,
            комплексы этикетирования, прайс- чекеры и другого торгового оборудования</p>
-        <a href="##" class="btn">Заказать расчет</a>
+        <a href="#send" class="btn">Заказать расчет</a>
       </div>
     </div>
 
@@ -98,7 +99,7 @@
   <!-- Подвал сайта -->
   <footer>
     <form class="letter" autocomplete="off">
-      <div class="form-letter">
+      <div class="form-letter" id="send">
         <div>
           <label>Имя <span>*</span></label>
           <input type='text' name='username' required></div>
