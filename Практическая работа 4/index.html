@@ -35,10 +35,12 @@
         <form method="post" action="check.php" class="content">
             <div id="Personal">
                 <div>
-                    <label for="surname">Фамилия<span class="star">*</span></label><input type="text" name="surname"
-                        required>
-                    <label for="name">Имя<span class="star">*</span></label><input type="text" name="name" required>
-                    <label for="secondname">Отчество</label><input type="text" name="secondname">
+                    <label for="surname">Фамилия<span class="star">*</span></label>
+                    <input type="text" name="surname" pattern="^[А-Яа-яЁё\s]+$" required>
+                    <label for="name">Имя<span class="star">*</span></label>
+                    <input type="text" name="name" pattern="^[А-Яа-яЁё\s]+$" required>
+                    <label for="secondname">Отчество</label>
+                    <input type="text" name="secondname" pattern="^[А-Яа-яЁё\s]+$">
                 </div>
                 <div>
                     <span>Пол</span>
