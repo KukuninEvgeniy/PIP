@@ -1,0 +1,118 @@
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+   
+}
+
+#user{
+    display: flex;
+    justify-content: right;
+}
+
+
+#buttons {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0%;
+    padding-left: 0;
+
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    border-radius: 3px;
+    border: 1px rgb(79, 80, 79) solid; 
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav:visited{
+    color: white;
+}
+
+.nav_li {
+    list-style-type: none;
+   
+    padding: 1rem 1px; 
+    
+
+}
+
+.nav:hover{
+    background-color: rgb(197, 193, 193);
+    padding: 15px 25px;
+    
+}
+/* страница теста */
+.question p{
+
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.question ul{
+    list-style: none;
+}
+
+.question{
+
+    padding: 30px;
+    text-align: left;
+    border: 3px solid #eee;
+    margin-top: 25px;
+    
+}
+
+.questionAnswer{
+    height: 400px;
+    width: 600px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+#headQest{
+
+    text-align: center;
+}
+
+.questionTimeline{
+
+line-height: 20px;
+height: 20px;
+padding: 5px;
+border: 2px solid #eee;
+border-radius: 20px;
+
+}
+
+.quiz-timeline__number{
+
+    margin: 0 8px;
+    display: inline-block;
+    width: 38px;
+
+    
+}
+
+.questionTimelineCurrent
+{
+
+    color: #ffffff;
+    background-color: rgb(255, 153, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.questionTimelineCurrent{
+
+    
+}
