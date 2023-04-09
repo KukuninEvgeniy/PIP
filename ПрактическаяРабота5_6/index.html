@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- //TODO проверить на вертикальном мониторе - там все уехало -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body onload="funonloadindex();">
+    <div id="head">
+
+        <div id="buttons_div">
+            <ul id="buttons">
+                <li class="nav_li">
+                    <a href="javascript:helloOpen()" id="HelloUser_btn" class="nav"
+                        style="height: 400px;">Приветствие</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:triangleOpen()" id="triangle_btn" class="nav">Площадь треугольника</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:comparisonOpen()" id="comparison_btn" class="nav">Сравнение строк</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:arrayOpen()" id="array_btn" class="nav">Массив</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:timerOpen()" id="timer_btn" class="nav">Таймер</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:testOpen()" id="test_btn" class="nav">Тестирование</a>
+                </li>
+                <li class="nav_li">
+                    <a href="javascript:popupToggle()" id="splash_btn" class="nav">Заставка</a>
+                </li>
+            </ul>
+        </div>
+        <div id="user">
+
+            <div id="user_icon">
+                <img src="img/user-icon.png" alt="usericon" height="66" style="opacity: 0.7;display: block;">
+            </div>
+            <div id="user_name">SomeUser</div>
+        </div>
+    </div>
+    <div id="popup" onclick="closePop()">
+        
+        <!-- <p>...</p> -->
+        <!-- <div class="content"> -->
+
+            <!-- <img src="email.png">
+            <h2>Join Our Newsletter</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse itaque blanditiis dolore vel placeat
+                libero.</p>
+            <div class="inputBox">
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Sign Up" class="btn">
+            </div> -->
+        <!-- </div>
+        <a class="close" onclick="popupToggle();"><img src="close.png"></a> -->
+    </div>
+
+
+
+</body>
+
+</html>

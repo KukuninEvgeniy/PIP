@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="JS/script.js"></script>
+   </head>
+
+   <body>
+
+
+    <div class="DataUser">
+        <div id="timer" class="datauser">
+                    <form>
+                        <h1>Таймер</h1>
+                        <label>Укажите длительность в секундах<input type="number" id="time"></label>
+                        <input type="button" value="Старт" size="25" onclick="timerStart()"></input>
+                        <input type="button" value="Стоп" size="25" onclick="timerStop()"></input>
+                        <input type="button" value="Времени прошло" size="25" onclick="timerPass()"></input>
+                    </form></div>
+                    </div>
+        <div id="timerUserAdv">
+                 <p>Из основного окна вызывается функция "triangleOpen", 
+                    В функции выполняется получение нового окна:
+                    let newWin = window.open("", "", "width=800,height=600");";</p>
+                    <p> С помощью метода "newWin.document.write"
+                    выполняется заполнение новой страницы текстом HTML</p>
+                    <p> Новое окно содержит кнопку "Результат", на которой висит обработчик
+                    "timerStart()" - в обработчике создается новый элемент 
+                    методом "divResult = document.createElement(\'div\');" 
+                    Введенные значения находятся по ид элемента методом document.getElementById("hSide").value;
+                    Преобразование строкового ряда в массив выполняется методом "arrayString.split(",");"
+                    Выделение максимума и минимума выполняется методом Math.max(...array)"            
+        </div>
+        </body>
+
+   </html>
