@@ -267,7 +267,11 @@ function finishTest(){
     }
     // divA.remove();
     // divResult = document.createElement('div');
-    divA.innerHTML = countCorrect + ' правильных ответов';
+    divA.innerHTML = '<p>' + countCorrect + ' правильных ответов'+'</p>'+'<p>' +
+     'Формируется массив структур с вопросами, вариантами ответов и служебными значения ответ и впорос'
+     +'Задается обработчик нажатия на кнопку, в котором осуществляется формирование новых блоков div  с вопросами ответам'
+     +'в зависимости от счетчика выводятся либо вопросы, либо целиком все ответы и все вопросы'+'</p>'
+    
     // document.body.append(divResult)
 
 
@@ -516,13 +520,14 @@ function testOpen() {
 
     newWin.document.write('</div>');
     newWin.document.write('<div class="QuestionSubmit" id="QuestionSubmit">');
-    //newWin.document.write('<button id="submit">Начать тестирование</button>');
-    // newWin.document.write('<span class="button__text">Продолжить</span>');
     newWin.document.write(' <input type="button" id="button" value="Начать тестирование" size="25" onclick="testNext()"></input>');
     newWin.document.write('</button>');
-    newWin.document.write('</div>');
-    newWin.document.write('</div>');
     
+    
+
+    newWin.document.write('</div>');
+    newWin.document.write('</div>');
+       
     newWin.document.write('</body>');
 
     
