@@ -446,7 +446,7 @@ function comparisonOpen() {
 
 }
 
-//TODO Проверитьтексты описания
+
 
 function arrayOpen() {
 
@@ -489,7 +489,7 @@ function timerOpen() {
 //}
 
 
-//TODO выровнять по левому краяю переключатели
+
 function testOpen() {
     let newWin = window.open("", "", "width=800,height=600");
     newWin.onload = "javascript:testNext()";
