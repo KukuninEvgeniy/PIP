@@ -482,13 +482,6 @@ function timerOpen() {
     let newWin = window.open("timer.html", "", "width=800,height=600");
 }
 
-//function splashscreenOpen() {
-
-
-
-//}
-
-
 
 function testOpen() {
     let newWin = window.open("", "", "width=800,height=600");
@@ -511,13 +504,6 @@ function testOpen() {
 
     newWin.document.write('<div class="question" id="answers">');
     newWin.document.write('<h2 id="question">Нажмите старт для начала тестирования</h2>');
-    // newWin.document.write('<ul class="variants">');
-    // newWin.document.write('<li><input type="radio" name="answer" id="a" class="answer"><label id="a_text"></label></li>');
-    // newWin.document.write('<li><input type="radio" name="answer" id="b" class="answer"><label id="b_text"></label></li>');
-    // newWin.document.write('<li><input type="radio" name="answer" id="c" class="answer"><label id="c_text"></label></li>');
-    // newWin.document.write('<li><input type="radio" name="answer" id="d" class="answer"><label id="d_text"></label></li>');
-
-
     newWin.document.write('</div>');
     newWin.document.write('<div class="QuestionSubmit" id="QuestionSubmit">');
     newWin.document.write(' <input type="button" id="button" value="Начать тестирование" size="25" onclick="testNext()"></input>');
@@ -579,9 +565,6 @@ function popupToggle(){
 
 }
 
-// function closePop(){
-//     document.querySelector('тут указываете id блока popup').style.display = 'none';
-//   }
 
    function closePop(){
     document.getElementById("popup").classList.remove('active'); 
